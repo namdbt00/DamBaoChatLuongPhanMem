@@ -1,0 +1,103 @@
+
+
+#page{
+    height: inherit;
+    width: inherit;
+}
+#sidebar{
+    height: 100%;
+    width: 200px;
+    border-right: 1px solid #d7d7d7;
+}
+#sidebar i{
+    margin-right: 10px;
+    color: #2C80FE;
+    text-align: center !important;
+}
+#sidebar .icon-item {
+    width: 25px;
+    margin-right: 10px;
+}
+#sidebar .icon-item i{
+    width: 100%;
+}
+.nav-item{
+    cursor: pointer;
+    margin: 5px 10px;
+}
+.sidebar-item:hover{
+    background-color: #E7F1FF;
+}
+.sidebar-item{
+    border-radius: 5px;
+    padding: 5px 0;
+}
+.sidebar-item:hover div{
+    color: #2C80FE;
+}
+.nav-link{
+    color: #5C2C39;
+}
+.logo{
+    margin: 5px 10px;
+    margin-bottom: 10px;
+}
+.logo div{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left:13px;
+}
+
+menu{
+    height:50px;
+    width: 100%;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+#logout-btn{
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+#logout-btn i{
+    margin-right: 10px;
+}
+main{
+    width: 100%;
+    height: calc(100% - 50px);
+    padding: 10px 15px;
+    background-color: #F4F4F4;
+}
+.header-main{
+    padding: 5px 0;
+    height: 50px;
+}
+.background-main{
+    height: calc(100% - 50px);
+    width: 100%;
+    background-color: #fff;
+}
+.toolbar{
+    height: 50px;
+    padding: 10px;
+}
+#search{
+    width: 220px;
+}
+#product-data{
+    height: calc(100% - 50px);
+    padding: 0 10px;
+    overflow: auto;
+}
+thead{
+    background-color: #f2f2f2;
+    color: #fff;
+}
+tr{
+    border-bottom: 1px solid #e9e5e5;
+    height: 31px;
+}
+.table-function{
+    width: 100px;
+}
